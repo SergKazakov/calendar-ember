@@ -1,0 +1,89 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.calendar-wr {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  width: 600px;
+  padding: 5px;
+  margin: 40px auto;
+}
+.calendar {
+  width: 100%;
+}
+.calendar th,
+.calendar td {
+  text-align: center;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: 400;
+  color: #000;
+}
+.calendar th {
+  padding: 20px;
+}
+.calendar .switch {
+  font-size: 20px;
+}
+.prev,
+.next {
+  font-size: 21px;
+}
+.old {
+  color: #999;
+}
+.day,
+.switch{
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+}
+.day:hover,
+.switch:hover{
+  cursor: pointer;
+  background: #eee;
+}
+.day.active,
+.day.active:hover {
+  color: #fff;
+  background: #75bae8;
+}
+.day.current,
+.day.current:hover {
+  color: #fff;
+  background: red;
+}
+.btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  font-size: 20px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+.btn-default {
+  color: #ccc;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-default:hover {
+  color: #adadad;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+.btn-default:active {
+  outline: 0;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}

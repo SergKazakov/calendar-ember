@@ -1,0 +1,2 @@
+Calendar = Em.Application.create();
+
