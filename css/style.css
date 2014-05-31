@@ -21,10 +21,8 @@ a {
 .calendar th,
 .calendar td {
   text-align: center;
-  transition: all 200ms;
   font-size: 30px;
   font-weight: 400;
-  color: #000;
 }
 .calendar th {
   padding: 20px;
@@ -36,8 +34,9 @@ a {
 .next {
   font-size: 21px;
 }
-.old {
-  color: #999;
+.old,
+.new {
+  color: #ccc;
 }
 .day,
 .switch{

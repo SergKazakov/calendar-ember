@@ -45,7 +45,7 @@
         {{#each week in getWeeks}}
           <tr>
             {{#each day in week}}
-              <td {{bind-attr class=":day day.isCurrent:current day.isSelected:active"}} {{action "selectDay" day}}>{{day.number}}</td>
+              <td {{bind-attr class=":day day.isCurrent:current day.isSelected:active day.isOld:old day.isNew:new"}} {{action "selectDay" day}}>{{day.number}}</td>
             {{/each}}
           </tr>
         {{/each}}
